@@ -2,7 +2,12 @@ var express = require('express');
 
 var app = express.createServer(express.logger());
 
+<<<<<<< HEAD
+var buf = fs.readFileSync('index.html');
+var message = buf.toString();
+=======
 var message = fs.readFileSync('index.html')
+>>>>>>> heroku/master
 
 app.get('/', function(request, response) {
 //  response.send('Hello World 2!');
