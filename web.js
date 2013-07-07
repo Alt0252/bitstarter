@@ -7,7 +7,8 @@ var message = buf.toString();
 
 app.get('/', function(request, response) {
 //  response.send('Hello World 2!');
-  response.send(message);
+//  response.send(message);
+  response.send('testing');
 });
 
 var port = process.env.PORT || 5000;
