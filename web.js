@@ -6,8 +6,6 @@ var buf = fs.readFileSync('index.html');
 var message = buf.toString();
 
 app.get('/', function(request, response) {
-//  response.send('Hello World 2!');
-//  response.send(message);
   response.send('testing');
 });
 
